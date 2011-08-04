@@ -227,3 +227,7 @@ The library is currently in use in a modular ZF project. The environment consist
 
  - Zend Framework 1.11.4
  - PHP 5.3.6, should work with any 5.3.*
+
+Licence
+-------
+The library is released under Apache Licence 2.0.
