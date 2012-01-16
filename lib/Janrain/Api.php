@@ -304,6 +304,14 @@ class Janrain_Api
 			$this->_http_client->resetParameters(true);
 		}
 		
+		/**
+		 * The encoding type is reset with eacht resetParameters
+		 * call. Set the default encoding for the requests.
+		 * 
+		 * @see https://github.com/jappievw/janrain-zf/issues/1
+		 */
+		$this->_http_client->setEncType();
+		
 		return $this->_http_client;
 	}
 }
